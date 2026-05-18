@@ -1,0 +1,51 @@
+#VSCode directory
+.vscode/
+
+#Scripts
+scripts/
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables and build
+*.exe
+*.out
+*.app
+build/
+
+# Property files
+*.json
+*.log
+
+#Ignore results folder
+/Results
+
+#Ignore Sandbox 
+src/Debugs.cpp
+
+#Dont ignore Jsons in experiment folder
+!experiments/**
