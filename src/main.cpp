@@ -105,6 +105,7 @@ int main(int argc, char *argv[]) {
             }
 
         }
+        delete model;
     }
     catch (GRBException e) {
         std::cout << "Error number: " << e.getErrorCode() << std::endl;
